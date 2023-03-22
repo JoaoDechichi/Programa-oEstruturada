@@ -11,6 +11,6 @@ int main(){
     scanf("%d", D);
 
     printf("(%d + %d) * (%d + %d) ");
-
+.
     return 0;
 }

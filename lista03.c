@@ -31,6 +31,6 @@ int main(){
     printf("Numeros reais:\n %lf\n %lf\n", numr1, numr2);
     printf("Letra: %c\n", letra);
     printf("String: %s\n", palavra);
-
+.
     return 0;
 }

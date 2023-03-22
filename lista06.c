@@ -9,6 +9,6 @@ printf("A soma de %d com %d eh de %d", A, B, X=A+B);
 
 
 
-
+.
     return 0;
 }

@@ -11,7 +11,6 @@ int main(){
     scanf("%d", &b);
 
     printf("a soma de %d com %d eh %d", a, b, x=a+b);
-    
 
 
 
@@ -22,6 +21,7 @@ int main(){
 
 
 
+.
 
 
 

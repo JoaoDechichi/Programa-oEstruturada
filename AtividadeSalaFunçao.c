@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 char escolha;
-float F, C;
+int F, C;
 
 
 int main(){
@@ -14,7 +14,7 @@ scanf("%c", &escolha);
     if (escolha == 'C' || 'c')
     {
         printf("Qual a temperatura a ser transofrmada:\n");
-        scanf("%f", &C);
+        scanf("%d", &C);
             
             
             F = ((9*C/5)+35);
@@ -25,7 +25,7 @@ scanf("%c", &escolha);
     else if(escolha == 'F' || 'f')
     {
         printf("Qual a temperatura a ser transofrmada:\n");
-        scanf("%f", &F);
+        scanf("%d", &F);
 
             C = ((F-32)*5/9);
 

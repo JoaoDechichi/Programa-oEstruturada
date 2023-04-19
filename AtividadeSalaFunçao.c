@@ -1,38 +1,23 @@
 #include<stdio.h>
 
-char escolha;
-int F, C;
+     double celciusfar (double C){
+        double F;
+        F=(9.0 * C/5.0)+35;
+
+        return F;
+     } 
+
+
 
 
 int main(){
+    char escolha;
+    double F, C;
+
+    scanf("%lf", &C);
+    F = celciusfar(C);
 
 
-printf("Escolha qual a temperatura inicial, sendo opcoes (C)Celcius e (F)Fahrenheint: \n");
-scanf("%c", &escolha);
-
-
-    if (escolha == 'C' || 'c')
-    {
-        printf("Qual a temperatura a ser transofrmada:\n");
-        scanf("%d", &C);
-            
-            
-            F = ((9*C/5)+35);
-
-           printf("A temperatura em Fahreinheint eh: %d", F);
-    }
-
-    else if(escolha == 'F' || 'f')
-    {
-        printf("Qual a temperatura a ser transofrmada:\n");
-        scanf("%d", &F);
-
-            C = ((F-32)*5/9);
-
-            printf("A temperatura em Celcius eh: %d", C);
-
-    }
-    
 
     return 0;
 }
